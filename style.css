@@ -1,0 +1,153 @@
+html {
+    height: 100%;
+    justify-content: center;
+}
+
+body {
+    width: 21cm; /* A4 width */
+    height: 29.7cm; /* A4 height */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0cm; /* Margin around the content */
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5); /* A4 paper shadow */
+}
+
+body {
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: black;
+}
+
+
+.at_top {
+    margin-bottom: -20px; /*to close the black gaps between the blocks*/
+    background: linear-gradient(68.1deg, rgb(248, 205, 205) -0.3%, rgb(149, 170, 211) 100.7%);
+}
+
+.at_top .at_top_left {
+    display: inline-block;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.at_top .at_top_right1,
+.at_top .at_top_right2,
+.at_top .at_top_right3 {
+    float: right; /* align to far-right */
+    margin-right: 30px;
+    padding-right: 10px;
+    font-size: 11px;
+    text-align: right; /* Align text to the right */
+}
+
+
+
+.at_top_center {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+
+.at_top_center .sign_up {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0; /* Adjust the value as needed */
+}
+
+.at_top_center .block {
+    display: inline-block;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: gray;
+    flex:content;
+    top: 0; /* Adjust as needed */
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+
+.middle1{
+    background: blueviolet;
+    margin-bottom: -20px; /*to close the black gaps between the blocks*/
+}
+
+.middle1 .random_info{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.square .one,
+.square .two,
+.square .three,
+.square .four {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border: black solid 1px;
+    display: inline-block;
+}
+
+.middle2{
+    margin-bottom: -20px; /*to close the black gaps between the blocks*/
+    background: radial-gradient(circle at 10% 20%, rgb(10, 174, 227) 0%, rgb(124, 182, 255) 100.2%);
+}
+
+.middle3{
+    margin-bottom: -18px; /*to close the black gaps between the blocks*/
+    background: linear-gradient(109.6deg, rgb(80, 154, 175) 11.2%, rgb(125, 216, 199) 59.3%, rgb(245, 255, 195) 92.7%);
+}
+
+.middle2 .blockquote {
+  margin: 50px;
+  padding: 50px;
+  margin-top:auto;
+  margin-bottom: 0px; /*to close the black gaps between the blocks*/
+}
+
+.quote {
+    padding: 100px;
+}
+
+.square .at_bottom_rect {
+    height: 150px;
+    width: 500px;
+    background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: black solid 1px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: brown;
+    width: auto;
+    height: 10px;
+    padding-bottom: 15px;
+    padding-top:0px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: small;
+    align-items: center;
+}
